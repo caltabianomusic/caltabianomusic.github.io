@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Html/style.css" />
+    <title>Caltabiano</title>
+    <style>
+      p {
+          margin: 1px;  /*Márgenes exteriores */
+          text-align: justify; /* Justifica el texto */
+          padding: 1px; /* Relleno interior */
+          text-indent: 12px;   /* Indenta la primera línea 20px */
+          /*border: 1px solid #ccc;  Borde para visualizar el área */
+      }
+  </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <section id="navbar" class="contenedor1">
+        <div class="cuadrot">
+          <nav id="navbar">
+            <header class="cabezera">
+              <div class="navegacion">
+                <a href="#Magdiell.html" class="link">HOME</a>
+                <a href="#products" class="link">SONGBOOK</a>
+                
+              </div>
+            </header>
+          </nav>
+            <!-- <div class="cuadrot3">
+              <header class="cabezera3">
+                <div class="navegacion3">
+                  <a href="#navbar" class="link"><img src="./images/house-solid.png" alt="Inicio" /></a>
+                </div>
+              </header> -->
+          <div class="banner3">
+            <div class="foto">
+              <img src="./images/magdiel.jpg" alt="" />
+              <P>caltabiano@live.com</P>
+              <p>Movil.: 621355514</p>
+            </div>
+            <div class="banner-texto3">
+              <h1>Caltabiano</h1>
+              <h2>(Magdiel Fernández)</h2>
+              <p>
+                Un cantautor venezolano independiente de
+                <b>Poprock Latino</b>, actualmente radicado en España. Ha grabado dos
+                álbumes EP, el interesado en 2012 y A que sabes 2017.
+              </p>
+              <p>
+                Ha cantado en teatros como <i><b>El Teatro de la Ópera</b></i> y el <i></i><b>Teatro
+                Ateneo de Maracay</b>, Venezuela. También ha realizado
+                presentaciones en locales nocturnos en diferentes ciudades de
+                Venezuela,en Florida, USA, y Sevilla, España.
+              </p>
+              <p>
+                En Diciembre de 2017 logra un número uno en la Cartelera Latina
+                de National Report en Venezuela.
+              </p>
+              <p> Actualmente, <b>Caltabiano</b> se
+                encuentra preparando un repertorio de canciones de su autoría
+                con un objetivo: que otros artistas graben y den vida a sus
+                composiciones.
+              </p>
+              <p>
+                Este proyecto refleja su deseo de expandir su impacto en la
+                música latina, aportando su talento como compositor y
+                colaborando con otros artistas que compartan su visión musical.
+              </p>
+            </div>
+            <!-- <div class="footer-text3">
+              <div class="rs3">
+                <p>Follow Me</p>
+                <div class="face3">
+                  <a
+                    href="https://www.facebook.com/calobo50@hotmail.it"
+                    target="_blank"
+                  >
+                    <img src="../Img/Facebook.png" alt=" " />
+                  </a>
+                </div>
+                <div class="inst3">
+                  <a
+                    href="https://www.instagram.com/calobo50@hotmail.it"
+                    target="_blank"
+                  >
+                    <img src="../Img/Instagram.png" alt="" />
+                  </a>
+                </div>
+                <div class="twi3">
+                  <a href="https://x.com/calobo50@hotmail.it" target="_blank">
+                    <img src="../Img/Twitter.png" alt=" " />
+                  </a>
+                </div>
+                <div class="wha3">
+                  <a
+                    href="https://web.whatsapp.com/calobo50@hotmail.it"
+                    target="_blank"
+                  >
+                    <img src="../Img/whatsApp.png" alt="https://x.com " />
+                  </a>
+                </div>
+              </div>
+            </div>-->
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="contenedor2">
+        <div class="paquete">
+          <div class="player">
+            <div class="header">
+              <button class="menu">
+                <i class="bi bi-grid-fill"></i>
+              </button>
+
+              <strong>Caltabiano Song</strong>
+
+              <button class="show">
+                <i class="bi bi-music-note-list"></i>
+              </button>
+            </div>
+            <div class="track-info">
+              <img src="https://placehold.co/200" alt="" class="artwork" />
+              <h2 class="name"></h2>
+              <h3 class="artist"></h3>
+              <audio id="audio-player"></audio>
+            </div>
+            <div class="seek-slider">
+              <input type="range" min="1" max="100" value="0" step="0.01" />
+              <span class="current-time">0:00</span>
+              <span class="duration">0:00</span>
+            </div>
+            <div class="audio-controls">
+              <button class="prev">
+                <i class="bi bi-skip-start-fill"></i>
+              </button>
+
+              <button class="play-pause paused">
+                <i class="bi bi-play-circle-fill"></i>
+              </button>
+
+              <button class="next">
+                <i class="bi bi-skip-end-fill"></i>
+              </button>
+            </div>
+            <div class="volume-slider">
+              <i class="bi bi-volume-off-fill"></i>
+              <input type="range" min="1" max="100" />
+              <i class="bi bi-volume-up-fill"></i>
+            </div>
+          </div>
+          <div class="playlist">
+            <div class="playlist-header">
+              <button class="hide">
+                <i class="bi bi-chevron-right"></i>
+              </button>
+              <strong>My PlayList</strong>
+            </div>
+            <div class="playlist-content"></div>
+          </div>
+          <div class="navbar2">
+            <a href="#navbar" class="link"><img src="./images/house-solid.png" alt="Inicio" /></a>
+            <a href="index.html">
+          </div>
+        </div>
+      </section>
+      <!--<section id="about" class="contenedor3">
+        <div class="cuadrot3">
+          <header class="cabezera3">
+            <div class="navegacion3">
+              <a href="#navbar" class="link"><img src="./images/house-solid.png" alt="Inicio" /></a>
+            </div>
+          </header>
+          <div class="banner3">
+            <div class="foto">
+              <img src="./images/magdiel.jpg" alt="" />
+            </div>
+            <div class="banner-texto3">
+              <h1>Caltabiano</h1>
+              <p>
+                Magdiel fernandez es un cantautor venezolano independiente de
+                poprock latino, actualmente radicado en España. Ha grabado dos
+                álbumes EP, el interesado en 2012 y A que sabes 2017.
+              </p>
+              <p>
+                Ha cantado en teatros como El Teatro de la Ópera y el Teatro
+                Ateneo de Maracay, Venezuela. También ha realizado
+                presentaciones en locales nocturnos en diferentes ciudades de
+                Venezuela,en Florida, USA, y Sevilla, España.
+              </p>
+              <p>
+                En Diciembre de 2017 logra un número uno en la cartelera latina
+                de National Report en Venezuela. Actualmente, Caltabiano se
+                encuentra preparando un repertorio de canciones de su autoría
+                con un objetivo: que otros artistas graben y den vida a sus
+                composiciones.
+              </p>
+              <p>
+                Este proyecto refleja su deseo de expandir su impacto en la
+                música latina, aportando su talento como compositor y
+                colaborando con otros artistas que compartan su visión musical.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-text3">
+          <div class="rs3">
+            <p>Follow Me</p>
+            <div class="face3">
+              <a
+                href="https://www.facebook.com/calobo50@hotmail.it"
+                target="_blank"
+              >
+                <img src="../Img/Facebook.png" alt=" " />
+              </a>
+            </div>
+            <div class="inst3">
+              <a
+                href="https://www.instagram.com/calobo50@hotmail.it"
+                target="_blank"
+              >
+                <img src="../Img/Instagram.png" alt="" />
+              </a>
+            </div>
+            <div class="twi3">
+              <a href="https://x.com/calobo50@hotmail.it" target="_blank">
+                <img src="../Img/Twitter.png" alt=" " />
+              </a>
+            </div>
+            <div class="wha3">
+              <a
+                href="https://web.whatsapp.com/calobo50@hotmail.it"
+                target="_blank"
+              >
+                <img src="../Img/whatsApp.png" alt="https://x.com " />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    -->
+    </main>
+    <script src="tracks.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
